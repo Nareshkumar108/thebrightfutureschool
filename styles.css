@@ -1,0 +1,226 @@
+
+.topnav {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+    float: left;
+}
+.navbar a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .navbar a:hover {
+    background-color: #000;
+  }
+  .active {
+    background-color: #04AA6D;
+  }
+  .navbar a {
+    float: none;
+    display: block;
+  }    
+
+.contanier{
+text-align: center;
+color: #3498db;
+text-shadow: 2px 2px 5px;
+text-decoration: double;
+margin-bottom: auto;
+padding:auto;
+border: 10px solid black;
+}
+marquee {
+  color: green; 
+  font-size: 30px; 
+}
+.body.about{
+  background-color: #555;
+}
+h3 {
+  color: rgb(113, 175, 113); 
+}
+h2 {
+  color: rgb(210, 230, 103); 
+}
+.about-container h2 {
+    color: rgb(113, 175, 113);
+    font-size: 2.5rem;
+}
+.header h1{
+  color: #3498db;
+  text-shadow: 2px 2px 5px; 
+  text-align: center;
+}
+.container3{
+  text-align: center;
+  border: 40px solid rgb(42, 157, 161);
+}
+
+.contact {
+  
+  background-color: rgb(175, 141, 67);
+  padding: 80px 0;
+  text-align: center;
+  color: #fff;
+}
+
+.phone1{
+
+  font-size: 50px;
+  color: #000;
+}
+  .phone2{
+    font-size: 50px;
+    color: #000;
+}
+.phone3{
+
+  font-size: 50px;
+  color: #000;
+}
+
+.contact-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.info-item {
+  margin: 0 20px;
+  text-align: center;
+}
+
+.info-item i {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-form button {
+  display: inline-block;
+  background-color: #09ff00;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #e60000;
+}
+.contact-container h1{
+  text-shadow: 2px 2px 5px; 
+  color: azure;
+}
+
+/* Default styles for desktop */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* For screens smaller than 768px (mobile/tablet) */
+@media screen and (max-width: 400px) {
+  body {
+      font-size: 14px;
+  }
+  
+  .container {
+      width: 100%;
+      padding: 10px;
+  }
+}
+/* Banner section */
+.banner {
+  background-image: ('image/back-school-facebook-cover-banner-template_106176-1191');  /* External image URL */
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.about{
+  background-color: aquamarine;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th,
+table td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+table th {
+  background-color: #007bff;
+  color: white;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table tr:hover {
+  background-color: #f1f1f1;
+}
